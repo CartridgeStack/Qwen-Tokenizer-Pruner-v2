@@ -1,7 +1,3 @@
-<p align="left">
-    <a href="README_CN.md">中文</a>&nbsp ｜ &nbspEnglish&nbsp
-</p>
-
 
 Usage:
 python main.py `
@@ -9,6 +5,9 @@ python main.py `
   --new_model_path ".\Qwen3.6-27B-pruned-v3" `
   --support_data   ".\sample_data" `
   --support_lang   en
+
+
+  https://github.com/KaihuaTang/Qwen-Tokenizer-Pruner
 
 
 
