@@ -1,0 +1,5 @@
+tqdm
+langdetect
+transformers>=4.50.0
+safetensors
+torch
