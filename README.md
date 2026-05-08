@@ -3,6 +3,15 @@
 </p>
 
 
+Usage:
+python main.py `
+  --old_model_path ".\Qwen3.6-27B" `
+  --new_model_path ".\Qwen3.6-27B-pruned-v3" `
+  --support_data   ".\sample_data" `
+  --support_lang   en
+
+
+
 # Qwen-Tokenizer-Pruner
 Due to the huge vocaburary size (151,936) of Qwen models, the Embedding and LM Head weights are excessively heavy. Therefore, this project provides a Tokenizer vocabulary pruning solution for Qwen and Qwen-VL.
 
